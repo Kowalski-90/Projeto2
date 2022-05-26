@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Oswald&family=Roboto&display=swap');
+
+
+:root {
+    --blackcolor:    #2D2E3D;
+    --whitecolor:    #f1f1f1;
+    --graycolor:     #999;
+    --textcolor:     #f1f1f1;
+    --bordercolor:   #f1f1f1;
+    --midnightblack: #212327;
+    --cosmicred:     #9F214C;
+    --starlightblue: #5BC4FE;
+    --galacticpurple:#5A39AF;
+    --novapink:      #EF45A1;
+
+    --defaultfont: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: var(--blackcolor);
+    font-family: var(--defaultfont);
+    font-size: 14px;
+    color: var(--textcolor);
+}
+
+h1 {
+    font-family: var(--defaultfont);
+    font-size: 18px;
+    color: var(--whitecolor);
+}
+
+h2 {
+    font-family: var(--defaultfont);
+    font-size: 16px;
+    color: var(--graycolor);
+}
+
+p {
+    font-family: var(--defaultfont);
+    font-size: 16px;
+    color: var(--graycolor);
+    text-align: justify;
+}
+
+div {
+    font-family: var(--defaultfont);
+    font-size: 16px;
+    color: var(--whitecolor);
+    font-weight: bold;
+}
+
+div > p {
+    color: var(--whitecolor);
+    padding: 10px 10px;
+    margin: auto;
+}
+
+div > p.totalprice {
+    color: var(--whitecolor);    
+}
+
+.add {    
+    background-color: var(--blackcolor);
+    border: 2px solid var(--whitecolor);  
+    border-radius: 28px 28px 28px 28px;
+    margin: 30px;
+    width: 90%;
+    height: 60px;  
+}
+
+.add > p {    
+    color: var(--whitecolor);
+    text-align: center;   
+}
+
+.flex-container {
+    display: flex;
+    width: 50%;    
+}
+
+.colors {
+    display: flex;
+}
+
+.quantity {
+    display: flex;
+}
+
+.increment {
+    width: 35px;
+    height: 31px;
+    margin: auto;
+    padding: auto;
+}
+
+.decrement {
+    width: 35px;
+    height: 31px;
+    margin: auto;
+    padding: auto;
+}
+
+.input {
+    width: 35px;
+    height: 25px;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+}
+
+.midnightblack {
+    width: 30px;
+    height: 30px;
+    background-color: var(--midnightblack);
+    margin: 10px;    
+    border-radius: 50%;    
+}
+
+.midnightblack:hover {
+    border: 2px solid var(--whitecolor);    
+}
+
+.cosmicred {
+    width: 30px;
+    height: 30px;
+    background-color: var(--cosmicred);
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.cosmicred:hover {
+    border: 2px solid var(--whitecolor);
+}
+
+.starlightblue {
+    width: 30px;
+    height: 30px;
+    background-color: var(--starlightblue);
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.starlightblue:hover {
+    border: 2px solid var(--whitecolor);
+}
+
+.galacticpurple {
+    width: 30px;
+    height: 30px;
+    background-color: var(--galacticpurple);
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.galacticpurple:hover {
+    border: 2px solid var(--whitecolor);
+}
+
+.novapink {
+    width: 30px;
+    height: 30px;
+    background-color: var(--novapink);
+    margin: 10px;
+    border-radius: 50%;    
+}
+
+.novapink:hover {
+    border: 2px solid var(--whitecolor);
+}

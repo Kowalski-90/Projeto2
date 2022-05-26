@@ -21,19 +21,21 @@
             <p><strong>Complete the look: </strong>Pair your new PS5 console cover with a matching DualSense wireless controller for a vivid set.</p>
         </section>
         <div class="flex-container">
-            <p>COLOR</p>
-            <div class="colors">
-                <div class="midnightblack"></div>
-                <div class="cosmicred"></div>
-                <div class="starlightblue"></div>
-                <div class="galacticpurple"></div>
-                <div class="novapink"></div>
+            <div class="colortitle"><p>COLOR</p>
+                <div class="colors">
+                    <div class="midnightblack"></div>
+                    <div class="cosmicred"></div>
+                    <div class="starlightblue"></div>
+                    <div class="galacticpurple"></div>
+                    <div class="novapink"></div>
+                </div>
             </div>
-            <p>QUANTITY</p>
-            <div class="quantity">
-                <button class="decrement">-</button>                
-                <input class="input" type="number" name="quantity" id="quantity" min="0">
-                <button class="increment">+</button>                
+            <div class="quantitytitle"><p>QUANTITY</p>
+                <div class="quantity">
+                    <button class="decrement" onclick="decrement()">-</button>                
+                    <h2 class="counter"></h2>
+                    <button class="increment" onclick="increment()">+</button>                
+                </div>
             </div>
         </div>
         <div class="totalprice"><p>TOTAL PRICE</p>

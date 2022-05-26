@@ -16,7 +16,7 @@
 }
 
 body {
-    margin: 0;
+    margin: 15px 10px 15px 10px;
     background-color: var(--blackcolor);
     font-family: var(--defaultfont);
     font-size: 14px;
@@ -75,59 +75,19 @@ div > p.totalprice {
 
 .flex-container {
     display: flex;
-    width: 50%;   
+    width: 50%;    
 }
 
 .colors {   
     display: flex;
     box-sizing: border-box;        
     justify-content: center;
-    align-items: center;    
+    align-items: center;
+    margin-right: 50px;     
 }
 
-.quantity {
-    display: flex;    
-}
-
-.increment {
-    color: var(--whitecolor);
-    width: 30px;
-    height: 31px;
-    margin: auto;
-    padding: auto;
-    text-align: center;
-    background-color: var(--blackcolor);
-    border: 1px solid var(--whitecolor);
-    border-radius: 0px 15px 15px 0px;
-}
-
-.decrement {
-    color: var(--whitecolor);
-    width: 30px;
-    height: 31px;
-    margin: auto;
-    padding: auto;
-    text-align: center;
-    background-color: var(--blackcolor);
-    border: 1px solid var(--whitecolor);
-    border-radius: 15px 0px 0px 15px;
-}
-
-.input {
-    color: var(--whitecolor);
-    width: 30px;
-    height: 27px;
-    text-align: center;
-    font-family: var(--defaultfont);
-    font-weight: bold;
-    margin: auto;
-    padding: auto;
-    background-color: var(--blackcolor);
-    border: 1px solid var(--whitecolor);
-}
-
-.totalprice > p {
-    padding: 80px 10px;
+.colortitle {
+    margin-bottom: 10px;
 }
 
 .midnightblack {
@@ -135,11 +95,11 @@ div > p.totalprice {
     height: 30px;
     background-color: var(--midnightblack);
     margin: 10px;    
-    border-radius: 50%;   
+    border-radius: 50%;  
 }
 
 .midnightblack:hover {
-    border: 2px solid var(--whitecolor);        
+    border: 2px solid var(--whitecolor);           
 }
 
 .cosmicred {
@@ -189,3 +149,64 @@ div > p.totalprice {
 .novapink:hover {
     border: 2px solid var(--whitecolor);
 }
+
+.quantity {
+    display: flex;
+    margin-top: 8px;
+    margin-left: 8px;    
+}
+
+.quantitytitle {
+    margin-bottom: 10px;
+}
+
+.increment {
+    color: var(--whitecolor);
+    width: 30px;
+    height: 31px;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    background-color: var(--blackcolor);
+    border: 1px solid var(--whitecolor);
+    border-radius: 0px 15px 15px 0px;
+}
+
+.decrement {
+    color: var(--whitecolor);
+    width: 30px;
+    height: 31px;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    background-color: var(--blackcolor);
+    border: 1px solid var(--whitecolor);
+    border-radius: 15px 0px 0px 15px;
+}
+
+.increment:hover {
+    background-color: var(--graycolor);
+}
+
+.decrement:hover {
+    background-color: var(--graycolor);
+}
+
+.counter {
+    color: var(--whitecolor);
+    width: 50px;
+    height: 29px;
+    text-align: center;
+    font-family: var(--defaultfont);
+    font-weight: bold;
+    margin: auto;
+    padding: auto;
+    background-color: var(--blackcolor);
+    border: 1px solid var(--whitecolor);
+}
+
+.totalprice > p {
+    padding: 80px 10px;
+    margin-top: -50px;
+}
+

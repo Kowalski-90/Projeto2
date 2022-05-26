@@ -10,6 +10,7 @@ function increment() {
     data = data + 1;
     document.getElementById('counter').innerText = data;
 }
+
 //creation of decrement function
 function decrement() {
     data = data - 1;

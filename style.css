@@ -192,7 +192,7 @@ div > p.totalprice {
     background-color: var(--graycolor);
 }
 
-.counter {
+#counter {
     color: var(--whitecolor);
     width: 50px;
     height: 29px;

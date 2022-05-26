@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Oswald&family=Roboto&display=swap');
 
-
 :root {
     --blackcolor:    #2D2E3D;
     --whitecolor:    #f1f1f1;
@@ -27,13 +26,13 @@ body {
 h1 {
     font-family: var(--defaultfont);
     font-size: 18px;
-    color: var(--whitecolor);
+    color: var(--whitecolor);    
 }
 
 h2 {
     font-family: var(--defaultfont);
     font-size: 16px;
-    color: var(--graycolor);
+    color: var(--graycolor);    
 }
 
 p {
@@ -62,7 +61,7 @@ div > p.totalprice {
 
 .add {    
     background-color: var(--blackcolor);
-    border: 2px solid var(--whitecolor);  
+    border: 1px solid var(--whitecolor);  
     border-radius: 28px 28px 28px 28px;
     margin: 30px;
     width: 90%;
@@ -76,37 +75,59 @@ div > p.totalprice {
 
 .flex-container {
     display: flex;
-    width: 50%;    
+    width: 50%;   
 }
 
-.colors {
+.colors {   
     display: flex;
+    box-sizing: border-box;        
+    justify-content: center;
+    align-items: center;    
 }
 
 .quantity {
-    display: flex;
+    display: flex;    
 }
 
 .increment {
-    width: 35px;
+    color: var(--whitecolor);
+    width: 30px;
     height: 31px;
     margin: auto;
     padding: auto;
+    text-align: center;
+    background-color: var(--blackcolor);
+    border: 1px solid var(--whitecolor);
+    border-radius: 0px 15px 15px 0px;
 }
 
 .decrement {
-    width: 35px;
+    color: var(--whitecolor);
+    width: 30px;
     height: 31px;
     margin: auto;
     padding: auto;
+    text-align: center;
+    background-color: var(--blackcolor);
+    border: 1px solid var(--whitecolor);
+    border-radius: 15px 0px 0px 15px;
 }
 
 .input {
-    width: 35px;
-    height: 25px;
+    color: var(--whitecolor);
+    width: 30px;
+    height: 27px;
     text-align: center;
+    font-family: var(--defaultfont);
+    font-weight: bold;
     margin: auto;
     padding: auto;
+    background-color: var(--blackcolor);
+    border: 1px solid var(--whitecolor);
+}
+
+.totalprice > p {
+    padding: 80px 10px;
 }
 
 .midnightblack {
@@ -114,11 +135,11 @@ div > p.totalprice {
     height: 30px;
     background-color: var(--midnightblack);
     margin: 10px;    
-    border-radius: 50%;    
+    border-radius: 50%;   
 }
 
 .midnightblack:hover {
-    border: 2px solid var(--whitecolor);    
+    border: 2px solid var(--whitecolor);        
 }
 
 .cosmicred {

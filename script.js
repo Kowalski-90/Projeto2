@@ -13,6 +13,6 @@ function increment() {
 
 //creation of decrement function
 function decrement() {
-    data = data - 1;
+    data = Math.max(0,data - 1);
     document.getElementById('counter').innerText = data;
 }

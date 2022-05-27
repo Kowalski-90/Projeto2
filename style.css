@@ -73,33 +73,40 @@ div > p.totalprice {
     text-align: center;   
 }
 
-.flex-container {
+.flex-container {    
+    height: auto;
     display: flex;
     width: 50%;    
 }
 
 .colors {   
     display: flex;
+    height: auto;
     box-sizing: border-box;        
     justify-content: center;
     align-items: center;
-    margin-right: 50px;     
+    margin-right: 50px;    
 }
 
 .colortitle {
     margin-bottom: 10px;
 }
 
+.responsive-img {
+    width: 10%;
+    height: auto;
+} 
+
 .midnightblack {
     width: 30px;
     height: 30px;
     background-color: var(--midnightblack);
     margin: 10px;    
-    border-radius: 50%;  
+    border-radius: 50%; 
 }
 
 .midnightblack:hover {
-    border: 2px solid var(--whitecolor);           
+    border: 2px solid var(--whitecolor);     
 }
 
 .cosmicred {
@@ -205,8 +212,13 @@ div > p.totalprice {
     border: 1px solid var(--whitecolor);
 }
 
-.totalprice > p {
-    padding: 80px 10px;
-    margin-top: -50px;
+#totalprice {
+    margin: 15px 10px 15px 10px;    
 }
+
+.totalpricetitle {
+    border: 1px solid var(--whitecolor);
+}
+
+
 

@@ -15,7 +15,7 @@
     --defaultfont: 'Roboto', sans-serif;
 }
 
-body {
+main {
     margin: 15px 10px 15px 10px;
     background-color: var(--blackcolor);
     font-family: var(--defaultfont);
@@ -32,7 +32,8 @@ h1 {
 h2 {
     font-family: var(--defaultfont);
     font-size: 16px;
-    color: var(--graycolor);    
+    color: var(--graycolor);
+    font-weight: lighter;    
 }
 
 p {
@@ -40,6 +41,10 @@ p {
     font-size: 16px;
     color: var(--graycolor);
     text-align: justify;
+}
+
+.content {
+    font-weight: lighter;
 }
 
 div {
@@ -89,7 +94,7 @@ div > p.totalprice {
     padding: 0;  
 }
 
-.colortitle {
+.colortitle {    
     margin-bottom: 10px;
 }
 
@@ -98,7 +103,7 @@ div > p.totalprice {
     height: auto;
 } 
 
-.midnightblack {
+.midnightblack {    
     width: 30px;
     height: 30px;
     background-color: var(--midnightblack);
@@ -233,5 +238,34 @@ div > p.totalprice {
     margin: 15px 10px 15px 10px;    
 }
 
+.split-left {
+    height: 100%;
+    width: 40%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding: 15px 5px;
+    background-color: var(--blackcolor);
+    margin: -10px;
+    box-shadow: 3px 2px 22px 1px rgba(0,0,0,0.24);
+    color: var(--bordercolor);
+}
+
+.left {
+    left: 0;
+    background-color: var(--blackcolor);
+}
+
+.right {
+    right: 0;
+    background-color: var(--whitecolor);
+}
+
+.split-right {
+    height: 98vh;
+    background-image: url('imagens/midnightblack.png');
+    background-position: center center;
+}
 
 

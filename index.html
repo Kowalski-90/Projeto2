@@ -8,43 +8,49 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
-        <header>
-            <h1>PLAYSTATION 5&#8482; CONSOLE COVERS</h1>
-            <h2>Explore gaming frontiers with new covers for your PS5 console</h2>            
-            <h1 id="price"></h1>            
-        </header>
-        <section>
-            <p><strong>Made by Playstation:</strong> The only console covers made by PlayStation for PS5 that are designed to deliver the quality level you know and trust.</p>
-            <p><strong>Choose your color: </strong>Personalise your PlayStation 5 or PlayStation 5 Digital Edition console with a vibrant array of new color options.</p>
-            <p><strong>Easy to use: </strong>Simply remove your original white PS5 console covers and click your new covers into place.</p>
-            <p><strong>Complete the look: </strong>Pair your new PS5 console cover with a matching DualSense wireless controller for a vivid set.</p>
-        </section>
-        <div class="flex-container">
-        <div class="colortitle"><p>COLOR</p>
-            <div class="colors">
-                <div class="midnightblack"></div>
-                <div class="cosmicred"></div>
-                <div class="starlightblue"></div>
-                <div class="galacticpurple"></div>
-                <div class="novapink"></div>
-            </div>
-        </div>
-            <div class="quantitytitle"><p>QUANTITY</p>
-                <div class="quantity">
-                    <button class="decrement" onclick="decrement()">-</button>                
-                    <h2 id="counter"></h2>
-                    <button class="increment" onclick="increment()">+</button>                
+    <div class="split-left">
+        <main>
+            <header>
+                <h1>PLAYSTATION 5&#8482; CONSOLE COVERS</h1>
+                <h2>Explore gaming frontiers with new covers for your PS5 console</h2>
+                <h1 id="price"></h1>
+            </header>
+            <section class="content">
+                <p><strong>Made by Playstation:</strong> The only console covers made by PlayStation for PS5 that are designed to deliver the quality level you know and trust.</p>
+                <p><strong>Choose your color: </strong>Personalise your PlayStation 5 or PlayStation 5 Digital Edition console with a vibrant array of new color options.</p>
+                <p><strong>Easy to use: </strong>Simply remove your original white PS5 console covers and click your new covers into place.</p>
+                <p><strong>Complete the look: </strong>Pair your new PS5 console cover with a matching DualSense wireless controller for a vivid set.</p>
+            </section>
+            <div class="flex-container">
+            <div class="colortitle"><p>COLOR</p>
+                <div class="colors">
+                    <div class="midnightblack"></div>
+                    <div class="cosmicred"></div>
+                    <div class="starlightblue"></div>
+                    <div class="galacticpurple"></div>
+                    <div class="novapink"></div>
                 </div>
             </div>
-        </div>
-        <div class="totalpricetitle"><p>TOTAL PRICE</p>
-            <h2 id="totalprice"></h2>
-        </div>
-        <div class="addtocart"> 
-            <button class="add" type="submit"><p>ADD TO CART</p></button>
-        </div>
-    </main>
-    <script src="script.js"></script>
+                <div class="quantitytitle"><p>QUANTITY</p>
+                    <div class="quantity">
+                        <button class="decrement" onclick="decrement()">-</button>
+                        <h2 id="counter"></h2>
+                        <button class="increment" onclick="increment()">+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="totalpricetitle"><p>TOTAL PRICE</p>
+                <h2 id="totalprice"></h2>
+            </div>
+            <div class="addtocart">
+                <button class="add" type="submit"><p>ADD TO CART</p></button>
+            </div>
+        </main>
+        <script src="script.js"></script>
+    </div>
+
+    <div class="split-right">
+        
+    </div>
 </body>
 </html>

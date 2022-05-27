@@ -6,11 +6,11 @@
     --graycolor:     #999;
     --textcolor:     #f1f1f1;
     --bordercolor:   #f1f1f1;
-    --midnightblack: #212327;
-    --cosmicred:     #9F214C;
-    --starlightblue: #5BC4FE;
-    --galacticpurple:#5A39AF;
-    --novapink:      #EF45A1;
+    --midnightblack: #1E2024;
+    --cosmicred:     #A91D4E;
+    --starlightblue: #53BCF5;
+    --galacticpurple:#472D96;
+    --novapink:      #EB3E99;
 
     --defaultfont: 'Roboto', sans-serif;
 }
@@ -85,7 +85,8 @@ div > p.totalprice {
     box-sizing: border-box;        
     justify-content: center;
     align-items: center;
-    margin-right: 50px;    
+    margin-right: 50px; 
+    padding: 0;  
 }
 
 .colortitle {
@@ -102,11 +103,11 @@ div > p.totalprice {
     height: 30px;
     background-color: var(--midnightblack);
     margin: 10px;    
-    border-radius: 50%; 
+    border-radius: 50%;        
 }
 
 .midnightblack:hover {
-    border: 2px solid var(--whitecolor);     
+    border: 2px solid var(--whitecolor);        
 }
 
 .cosmicred {
@@ -153,8 +154,9 @@ div > p.totalprice {
     border-radius: 50%;    
 }
 
-.novapink:hover {
-    border: 2px solid var(--whitecolor);
+.novapink:hover {     
+    border: 2px solid var(--whitecolor); 
+    display: ; 
 }
 
 .quantity {
@@ -191,12 +193,27 @@ div > p.totalprice {
     border-radius: 15px 0px 0px 15px;
 }
 
+.increment:active {
+    transform: scale(0.95);
+    box-shadow: 3px 2px 22px 1px rgba(0,0,0,0.24);
+}
+
+.decrement:active {
+    transform: scale(0.95);
+    box-shadow: 3px 2px 22px 1px rgba(0,0,0,0.24);
+}
+
 .increment:hover {
     background-color: var(--graycolor);
 }
 
 .decrement:hover {
     background-color: var(--graycolor);
+}
+
+.add:active {
+    transform: scale(0.95);
+    box-shadow: 3px 2px 22px 1px rgba(0,0,0,0.24);
 }
 
 #counter {
@@ -214,10 +231,6 @@ div > p.totalprice {
 
 #totalprice {
     margin: 15px 10px 15px 10px;    
-}
-
-.totalpricetitle {
-    border: 1px solid var(--whitecolor);
 }
 
 

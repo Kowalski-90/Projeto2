@@ -5,7 +5,7 @@ var price = 54.99;
   
 //printing default value of data that is 0 in h2 tag
 document.getElementById('counter').innerText = data;
-document.getElementById('price').innerText = price;
+document.getElementById('price').innerHTML = price.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'});;
   
 //creation of increment function
 function increment() {

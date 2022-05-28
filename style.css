@@ -7,7 +7,7 @@
     --textcolor:     #f1f1f1;
     --bordercolor:   #f1f1f1;
     --midnightblack: #1E2024;
-    --cosmicred:     #A91D4E;
+    --crimsonred:    #A91D4E;
     --starlightblue: #53BCF5;
     --galacticpurple:#472D96;
     --novapink:      #EB3E99;
@@ -118,23 +118,23 @@ div > p.totalprice {
     box-sizing: border-box;    
 }
 
-.btn1 {
+#btn1 {
     background-color: var(--midnightblack);
 }
 
-.btn2 {
-    background-color: var(--cosmicred);
+#btn2 {
+    background-color: var(--crimsonred);
 }
 
-.btn3 {
+#btn3 {
     background-color: var(--galacticpurple);
 }
 
-.btn4 {
+#btn4 {
     background-color: var(--starlightblue);
 }
 
-.btn5 {
+#btn5 {
     background-color: var(--novapink);
 }
 
@@ -223,10 +223,10 @@ div > p.totalprice {
     z-index: 1;
     top: 0;
     overflow-x: hidden;
-    padding: 15px 5px;
+    padding: 15px 15px;
     background-color: var(--blackcolor);
     margin: -10px;
-    box-shadow: 3px 2px 22px 1px rgba(0,0,0,0.24);
+    box-shadow: 3px 2px 20px 1px rgba(0,0,0,0.24);
     color: var(--bordercolor);
 }
 
@@ -237,5 +237,20 @@ div > p.totalprice {
 
 .right {
     right: 0;
-    background-color: var(--whitecolor);
+    width: 56.5%;    
+    background-color: var(--whitecolor);   
+}
+
+.centered {
+    height: 800px;
+    position: relative;
+    border: 3px solid black;
+}
+
+img {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;    
+    transform: translate(-50%, -50%);
 }

@@ -90,84 +90,59 @@ div > p.totalprice {
     box-sizing: border-box;        
     justify-content: center;
     align-items: center;
-    margin-right: 50px; 
-    padding: 0;  
+    margin: -10px 50px 5px 3px;
+    padding: 0;
+     
 }
 
 .colortitle {    
     margin-bottom: 10px;
 }
 
-.responsive-img {
-    width: 10%;
-    height: auto;
-} 
+.btn {
+    border: 1px solid var(--blackcolor);    
+    width: 35px;
+    height: 35px;
+    padding: auto;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 5px;
+    margin-top: 20px;    
+    position: relative;
+    overflow: hidden;
+}
 
-.midnightblack {    
-    width: 30px;
-    height: 30px;
+.btn:hover {    
+    border: 2px solid var(--bordercolor);    
+    outline-offset: 10px;
+    box-shadow: 0 0 0 2px var(--blackcolor) inset;
+    box-sizing: border-box;    
+}
+
+.btn1 {
     background-color: var(--midnightblack);
-    margin: 10px;    
-    border-radius: 50%;        
 }
 
-.midnightblack:hover {
-    border: 2px solid var(--whitecolor);        
-}
-
-.cosmicred {
-    width: 30px;
-    height: 30px;
+.btn2 {
     background-color: var(--cosmicred);
-    margin: 10px;
-    border-radius: 50%;
 }
 
-.cosmicred:hover {
-    border: 2px solid var(--whitecolor);
-}
-
-.starlightblue {
-    width: 30px;
-    height: 30px;
-    background-color: var(--starlightblue);
-    margin: 10px;
-    border-radius: 50%;
-}
-
-.starlightblue:hover {
-    border: 2px solid var(--whitecolor);
-}
-
-.galacticpurple {
-    width: 30px;
-    height: 30px;
+.btn3 {
     background-color: var(--galacticpurple);
-    margin: 10px;
-    border-radius: 50%;
 }
 
-.galacticpurple:hover {
-    border: 2px solid var(--whitecolor);
+.btn4 {
+    background-color: var(--starlightblue);
 }
 
-.novapink {
-    width: 30px;
-    height: 30px;
+.btn5 {
     background-color: var(--novapink);
-    margin: 10px;
-    border-radius: 50%;    
-}
-
-.novapink:hover {     
-    border: 2px solid var(--whitecolor); 
-    display: ; 
 }
 
 .quantity {
     display: flex;
-    margin-top: 8px;
-    margin-left: 8px;    
+    margin: 10px 50px 5px 10px;
+    border: 1px solid var(--bordercolor);    
 }
 
 .quantitytitle {
@@ -213,6 +188,10 @@ div > p.totalprice {
 }
 
 .decrement:hover {
+    background-color: var(--graycolor);
+}
+
+.add:hover {
     background-color: var(--graycolor);
 }
 

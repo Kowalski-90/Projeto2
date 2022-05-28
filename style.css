@@ -216,7 +216,7 @@ div > p.totalprice {
     margin: 15px 10px 15px 10px;    
 }
 
-.split-left {
+.split {
     height: 100%;
     width: 40%;
     position: fixed;
@@ -239,15 +239,3 @@ div > p.totalprice {
     right: 0;
     background-color: var(--whitecolor);
 }
-
-.split-right {
-    height: 98vh;    
-    background-image: url('imagens/midnightblack.png');
-    background-position: center;
-    repeat: no-repeat;
-}
-
-.default_img {
-    background-image: url('imagens/midnightblack.png');
-}
-

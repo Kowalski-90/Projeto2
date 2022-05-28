@@ -91,8 +91,7 @@ div > p.totalprice {
     justify-content: center;
     align-items: center;
     margin: -10px 50px 5px 3px;
-    padding: 0;
-     
+    padding: 0;     
 }
 
 .colortitle {    
@@ -141,8 +140,7 @@ div > p.totalprice {
 
 .quantity {
     display: flex;
-    margin: 10px 50px 5px 10px;
-    border: 1px solid var(--bordercolor);    
+    margin: 10px 50px 5px 10px;        
 }
 
 .quantitytitle {
@@ -205,12 +203,13 @@ div > p.totalprice {
     width: 50px;
     height: 29px;
     text-align: center;
+    justify-content: center;
     font-family: var(--defaultfont);
     font-weight: bold;
     margin: auto;
     padding: auto;
     background-color: var(--blackcolor);
-    border: 1px solid var(--whitecolor);
+    border: 1px solid var(--whitecolor);   
 }
 
 #totalprice {
@@ -242,9 +241,13 @@ div > p.totalprice {
 }
 
 .split-right {
-    height: 98vh;
+    height: 98vh;    
     background-image: url('imagens/midnightblack.png');
-    background-position: center center;
+    background-position: center;
+    repeat: no-repeat;
 }
 
+.default_img {
+    background-image: url('imagens/midnightblack.png');
+}
 

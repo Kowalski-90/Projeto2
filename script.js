@@ -20,5 +20,3 @@ function decrement() {
     document.getElementById('counter').innerText = data;
     document.getElementById('totalprice').innerText = (data * price).toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'});
 }
-
-//toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})

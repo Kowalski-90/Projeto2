@@ -24,18 +24,18 @@
             <div class="flex-container">
             <div class="colortitle"><p>COLOR</p>
                 <div class="colors">
-                    <button class="btn" id="btn1"></button>
-                    <button class="btn" id="btn2"></button>
-                    <button class="btn" id="btn3"></button>
-                    <button class="btn" id="btn4"></button>
-                    <button class="btn" id="btn5"></button>
+                    <button class="btn" id="btn1" onclick="changeImage()"></button>
+                    <button class="btn" id="btn2" onclick="changeImage()"></button>
+                    <button class="btn" id="btn3" onclick="changeImage()"></button>
+                    <button class="btn" id="btn4" onclick="changeImage()"></button>
+                    <button class="btn" id="btn5" onclick="changeImage()"></button>
                 </div>
             </div>
                 <div class="quantitytitle"><p>QUANTITY</p>
                     <div class="quantity">
-                        <button id="decrement" onclick="decrement()">&#45;</button>                        
+                        <button id="decrement">&#45;</button>                        
                         <input id="counter" type="text" name="counter" readonly="" value="0" >                        
-                        <button id="increment" onclick="increment()">&#43;</button>
+                        <button id="increment">&#43;</button>
                     </div>
                 </div>
             </div>
@@ -51,7 +51,7 @@
 
     <div class="split right">
         <div class="centered">
-            <img src="imagens/1-midnightblack.png" alt="midnight">
+            <img src="imagens/1-midnightblack.png" class="main-image" alt="midnight">
         </div>
     </div>
 </body>

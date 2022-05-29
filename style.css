@@ -33,7 +33,7 @@ h2 {
     font-family: var(--defaultfont);
     font-size: 16px;
     color: var(--graycolor);
-    font-weight: lighter;    
+    font-weight: lighter;  
 }
 
 p {
@@ -147,28 +147,35 @@ div > p.totalprice {
     margin-bottom: 10px;
 }
 
-.increment {
+#increment {
     color: var(--whitecolor);
     width: 30px;
-    height: 31px;
+    height: 33px;
     margin: auto;
     padding: auto;
     text-align: center;
     background-color: var(--blackcolor);
     border: 1px solid var(--whitecolor);
     border-radius: 0px 15px 15px 0px;
+    cursor: pointer;
 }
 
-.decrement {
+#decrement {
     color: var(--whitecolor);
     width: 30px;
-    height: 31px;
+    height: 33px;
     margin: auto;
     padding: auto;
     text-align: center;
     background-color: var(--blackcolor);
     border: 1px solid var(--whitecolor);
     border-radius: 15px 0px 0px 15px;
+    cursor: pointer;
+}
+
+input {
+    text-align: center;
+    font-size: 16px;
 }
 
 .increment:active {

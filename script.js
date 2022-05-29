@@ -22,14 +22,8 @@ subBtn.addEventListener('click',()=>{
     document.getElementById('totalprice').innerText = (counter.value * price).toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'});
 });
 
-function changeImage() {
-    if(document.getElementById('btn2').clicked == true){
-        alert("Button was clicked");
-    }
-}
-
 //creation of changeImage function
-/*let img = document.querySelector('img');
+let img = document.querySelector('img');
 let btn1 = document.querySelector('#btn1');
 let btn2 = document.querySelector('#btn2');
 let btn3 = document.querySelector('#btn3');
@@ -49,12 +43,12 @@ btn3.addEventListener('click',()=>{
 });
 
 btn4.addEventListener('click',()=>{
-    img.src = 'imagens/4-starlight blue.png';
+    img.src = 'imagens/4-starlightblue.png';
 });
 
 btn5.addEventListener('click',()=>{
     img.src = 'imagens/5-novapink.png';
-});*/
+});
 
 //creation of increment function (deprecated)
 /*function increment() {

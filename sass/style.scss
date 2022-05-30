@@ -1,0 +1,192 @@
+@import 
+	url('https 
+		&://fonts 
+			&.googleapis 
+				&.com/css2?family=Hind 
+					& + Siliguri& f amily=Oswald& f amily=Roboto& d isplay=swap'); 
+						:root 
+							--blackcolor: #2D2E3D 
+							--whitecolor: #f1f1f1 
+							--graycolor: #999 
+							--textcolor: #f1f1f1 
+							--bordercolor: #f1f1f1 
+							--midnightblack: #1E2024 
+							--crimsonred: #A91D4E 
+							--starlightblue: #53BCF5 
+							--galacticpurple: #472D96 
+							--novapink: #EB3E99 
+							--defaultfont: 'Roboto', sans-serif 
+body 
+	background-color: var(--whitecolor) 
+	overflow: hidden 
+main 
+	margin: 15px 10px 15px 10px 
+	background-color: var(--blackcolor) 
+	font-family: var(--defaultfont) 
+	font-size: 14px 
+	color: var(--textcolor) 
+h1 
+	font-family: var(--defaultfont) 
+	font-size: 18px 
+	color: var(--whitecolor) 
+h2 
+	font-family: var(--defaultfont) 
+	font-size: 16px 
+	color: var(--graycolor) 
+	font-weight: lighter 
+p 
+	font-family: var(--defaultfont) 
+	font-size: 16px 
+	color: var(--graycolor) 
+	text-align: justify 
+.content 
+	font-weight: lighter 
+div 
+	font-family: var(--defaultfont) 
+	font-size: 16px 
+	color: var(--whitecolor) 
+	font-weight: bold 
+	& > p 
+		color: var(--whitecolor) 
+		padding: 10px 10px 
+		margin: auto 
+		&.totalprice 
+			color: var(--whitecolor) 
+.add 
+	background-color: var(--blackcolor) 
+	border: 1px solid var(--whitecolor) 
+	border-radius: 28px 28px 28px 28px 
+	margin: 30px 
+	width: 90% 
+	height: 60px 
+	cursor: pointer 
+	& > p 
+		color: var(--whitecolor) 
+		text-align: center 
+	&:hover 
+		background-color: var(--graycolor) 
+	&:active 
+		transform: scale(0.95) 
+		box-shadow: 3px 2px 22px 1px rgba(0,0,0,0.24) 
+.flex-container 
+	height: auto 
+	display: flex 
+	width: 50% 
+.colors 
+	display: flex 
+	height: auto 
+	box-sizing: border-box 
+	justify-content: center 
+	align-items: center 
+	margin: -10px 50px 5px 3px 
+	padding: 0 
+.colortitle 
+	margin-bottom: 10px 
+.btn 
+	border: 1px solid var(--blackcolor) 
+	width: 35px 
+	height: 35px 
+	padding: auto 
+	border-radius: 50% 
+	cursor: pointer 
+	margin: 5px 
+	margin-top: 20px 
+	position: relative 
+	overflow: hidden 
+	&:hover 
+		border: 2px solid var(--bordercolor) 
+		outline-offset: 10px 
+		box-shadow: 0 0 0 2px var(--blackcolor) inset 
+		box-sizing: border-box 
+#btn1 
+	background-color: var(--midnightblack) 
+#btn2 
+	background-color: var(--crimsonred) 
+#btn3 
+	background-color: var(--galacticpurple) 
+#btn4 
+	background-color: var(--starlightblue) 
+#btn5 
+	background-color: var(--novapink) 
+.quantity 
+	display: flex 
+	margin: 10px 50px 5px 10px 
+.quantitytitle 
+	margin-bottom: 10px 
+#increment 
+	color: var(--whitecolor) 
+	width: 30px 
+	height: 33px 
+	margin: auto 
+	padding: auto 
+	text-align: center 
+	background-color: var(--blackcolor) 
+	border: 1px solid var(--whitecolor) 
+	border-radius: 0px 15px 15px 0px 
+	cursor: pointer 
+	&:active 
+		transform: scale(0.95) 
+		box-shadow: 3px 2px 22px 1px rgba(0,0,0,0.24) 
+	&:hover 
+		background-color: var(--graycolor) 
+#decrement 
+	color: var(--whitecolor) 
+	width: 30px 
+	height: 33px 
+	margin: auto 
+	padding: auto 
+	text-align: center 
+	background-color: var(--blackcolor) 
+	border: 1px solid var(--whitecolor) 
+	border-radius: 15px 0px 0px 15px 
+	cursor: pointer 
+	&:active 
+		transform: scale(0.95) 
+		box-shadow: 3px 2px 22px 1px rgba(0,0,0,0.24) 
+	&:hover 
+		background-color: var(--graycolor) 
+input 
+	text-align: center 
+	font-size: 16px 
+#counter 
+	color: var(--whitecolor) 
+	width: 50px 
+	height: 29px 
+	text-align: center 
+	justify-content: center 
+	font-family: var(--defaultfont) 
+	font-weight: bold 
+	margin: auto 
+	padding: auto 
+	background-color: var(--blackcolor) 
+	border: 1px solid var(--whitecolor) 
+#totalprice 
+	margin: 15px 10px 15px 10px 
+.split 
+	display: block 
+	height: 100% 
+	width: 40% 
+	position: fixed 
+	z-index: 1 
+	top: 0 
+	overflow: hidden 
+	padding: 15px 15px 
+	background-color: var(--blackcolor) 
+	margin: -10px 
+	box-shadow: 3px 2px 20px 1px rgba(0,0,0,0.24) 
+	color: var(--bordercolor) 
+.left 
+	left: 0 
+	width: 40.5% 
+	background-color: var(--blackcolor) 
+.right 
+	right: 0 
+	width: 56.5% 
+	background-color: var(--whitecolor) 
+img 
+	margin: 0 
+	position: absolute 
+	top: 50% 
+	left: 50% 
+	transform: translate(-50%, -50%) 
+	width: 130% 

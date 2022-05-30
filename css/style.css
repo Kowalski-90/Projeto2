@@ -248,7 +248,8 @@ input {
 }
 
 .left {
-    left: 0;    
+    left: 0;
+    width: 40.5%;   
     background-color: var(--blackcolor);    
 }
 

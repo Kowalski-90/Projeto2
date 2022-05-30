@@ -15,6 +15,10 @@
     --defaultfont: 'Roboto', sans-serif;
 }
 
+body {
+    background-color: var(--whitecolor);
+}
+
 main {
     margin: 15px 10px 15px 10px;
     background-color: var(--blackcolor);
@@ -119,7 +123,7 @@ div > p.totalprice {
 }
 
 #btn1 {
-    background-color: var(--midnightblack);
+    background-color: var(--midnightblack);    
 }
 
 #btn2 {
@@ -248,14 +252,8 @@ input {
 
 .right {
     right: 0;
-    width: 56.5%;    
+    width: 56.5%;  
     background-color: var(--whitecolor);   
-}
-
-.centered {
-    height: 800px;
-    position: relative;
-    border: 3px solid black;
 }
 
 img {
@@ -263,6 +261,6 @@ img {
     position: absolute;
     top: 50%;
     left: 50%;    
-    transform: translate(-50%, -50%);
-    width: 130%;    
+    transform: translate(-50%, -50%);   
+    width: 130%;       
 }

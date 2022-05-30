@@ -10,6 +10,12 @@ let addBtn = document.querySelector('#increment');
 let subBtn = document.querySelector('#decrement');
 let counter = document.querySelector('#counter')
 
+counter.addEventListener('keypress', logkey);
+    function logkey(e) {        
+        document.getElementById('counter').innerText = counter.value;
+        document.getElementById('totalprice').innerText = (counter.value * price).toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'});
+    }
+
 addBtn.addEventListener('click',()=>{
     counter.value = parseInt(counter.value) + 1
     document.getElementById('counter').innerText = counter.value;

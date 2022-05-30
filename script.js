@@ -31,23 +31,23 @@ let btn4 = document.querySelector('#btn4');
 let btn5 = document.querySelector('#btn5');
 
 btn1.addEventListener('click',()=>{
-    img.src = 'imagens/1-midnightblack.png';
+    img.src = 'imagens/1-midnight-black.png';
 });
 
 btn2.addEventListener('click',()=>{
-    img.src = 'imagens/2-crimsonred.png';
+    img.src = 'imagens/2-crimson-red.png';
 });
 
 btn3.addEventListener('click',()=>{
-    img.src = 'imagens/3-galaticpurple.png';
+    img.src = 'imagens/3-galactic-purple.png';
 });
 
 btn4.addEventListener('click',()=>{
-    img.src = 'imagens/4-starlightblue.png';
+    img.src = 'imagens/4-starlight-blue.png';
 });
 
 btn5.addEventListener('click',()=>{
-    img.src = 'imagens/5-novapink.png';
+    img.src = 'imagens/5-nova-pink.png';
 });
 
 //creation of increment function (deprecated)

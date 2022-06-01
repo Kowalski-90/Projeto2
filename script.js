@@ -37,24 +37,27 @@ let btn4 = document.querySelector('#btn4');
 let btn5 = document.querySelector('#btn5');
 
 btn1.addEventListener('click',()=>{
-    img.src = 'imagens/1-midnight-black.png';
+    img.src = 'https://images2.imgbox.com/6e/82/QmqwBBx7_o.png';
 });
 
 btn2.addEventListener('click',()=>{
-    img.src = 'imagens/2-crimson-red.png';
+    img.src = 'https://images2.imgbox.com/1c/ae/2lVlS84F_o.png';
 });
 
 btn3.addEventListener('click',()=>{
-    img.src = 'imagens/3-galactic-purple.png';
+    img.src = 'https://images2.imgbox.com/67/21/iEKYlNNf_o.png';
 });
 
 btn4.addEventListener('click',()=>{
-    img.src = 'imagens/4-starlight-blue.png';
+    img.src = 'https://images2.imgbox.com/b3/6f/sGpsSwFk_o.png';
 });
 
 btn5.addEventListener('click',()=>{
-    img.src = 'imagens/5-nova-pink.png';
+    img.src = 'https://images2.imgbox.com/5d/cd/kElME2uf_o.png';
 });
+
+//image repository
+//https://imgbox.com/g/SMbfrUCMOv
 
 //creation of increment function (deprecated)
 /*function increment() {
